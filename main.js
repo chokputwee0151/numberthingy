@@ -5,7 +5,7 @@ function sumAll(x){
  for(let i=0; i< x.length; i++){
    sumElements += x[i]
  }
- console.log(sumElements)
+return sumElements
 }
 
 function averageArray(x){
@@ -15,7 +15,7 @@ function averageArray(x){
    sumElements += x[i]
  }
  averageElements = sumElements/x.length
- console.log(averageElements)
+return averageElements
 }
 
 function findBig(x){
@@ -26,7 +26,7 @@ function findBig(x){
         }
         
 }
-console.log(bigger)
+return bigger
 }
 
 function findSmall(x){
@@ -37,7 +37,7 @@ function findSmall(x){
         }
         
 }
-console.log(smaller)
+return smaller
 }
 
 console.log(sumAll(a))
